@@ -40,5 +40,5 @@ Each card lists its terms with a one-line definition; the [glossary](../glossary
 
 - [ ] Your phone shots and videos are in the class image channel, as JPEG or MP4/MOV. Your studio stills went to the wall when you pressed the button.
 - [ ] Mics back in their charging cases. Panels off, stands folded. Gimbal powered down and folded. Lenses capped; ground glass and acrylic back in their sleeves.
-- [ ] You know which option you're doing for this week's [practice](01-practice.md), and what gear you're borrowing for it.
+- [ ] You've picked one or two of this week's [challenges](01-practice.md), and you know what gear you're borrowing for them.
 - [ ] One line in the channel: the station that surprised you, and why.
