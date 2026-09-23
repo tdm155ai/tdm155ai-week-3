@@ -7,7 +7,10 @@ import { useRouter } from "next/navigation";
 export default function AutoRefresh({ seconds = 10 }) {
   const router = useRouter();
   const [on, setOn] = useState(true);
-  const [tick, setTick] = useState(() => new Date());
+  // Set only in the browser: a time stamped during server rendering never matches the one made while hydrating.
+  const [tick, setTick] = useState(null);
+
+  useEffect(() => { setTick(new Date()); }, []);
 
   useEffect(() => {
     if (!on) return;
@@ -21,7 +24,7 @@ export default function AutoRefresh({ seconds = 10 }) {
         <span className={on ? "live-dot live-dot-on" : "live-dot"} aria-hidden="true" />
         {on ? `Live · every ${seconds}s` : "Paused"}
       </button>
-      <span className="live-stamp">checked {tick.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</span>
+      <span className="live-stamp">{tick ? `checked ${tick.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}` : ""}</span>
     </div>
   );
 }
