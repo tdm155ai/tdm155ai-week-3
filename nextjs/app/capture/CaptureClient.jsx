@@ -20,6 +20,7 @@ export default function CaptureClient({ stations, initialStation }) {
   const [config, setConfig] = useState({ machine: "", nas: false, slack: false });
   const [sendSlack, setSendSlack] = useState(true);
   const [sendNas, setSendNas] = useState(true);
+  const [describe, setDescribe] = useState(true);
   const [status, setStatus] = useState({ tone: "muted", text: "Starting the camera…" });
   const [recent, setRecent] = useState([]);
   const [flash, setFlash] = useState(false);
@@ -99,7 +100,7 @@ export default function CaptureClient({ stations, initialStation }) {
 
     const id = `${Date.now()}-${Math.random()}`;
     const update = (patch) => setRecent((items) => items.map((item) => (item.id === id ? { ...item, ...patch } : item)));
-    setRecent((items) => [{ id, thumb: URL.createObjectURL(blob), name: "", note: "saving…", tone: "muted" }, ...items].slice(0, 12));
+    setRecent((items) => [{ id, thumb: URL.createObjectURL(blob), name: "", note: config.describe && describe ? "saving and describing…" : "saving…", tone: "muted" }, ...items].slice(0, 12));
     setStatus({ tone: "muted", text: "Captured. Saving…" });
 
     try {
@@ -108,21 +109,23 @@ export default function CaptureClient({ stations, initialStation }) {
       form.append("station", station);
       form.append("slack", config.slack && sendSlack ? "1" : "0");
       form.append("nas", config.nas && sendNas ? "1" : "0");
+      form.append("describe", config.describe && describe ? "1" : "0");
       const response = await fetch("/api/capture", { method: "POST", body: form });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
       const parts = ["Saved"];
       if (result.nas) parts.push(result.nas === "saved" ? "NAS ✓" : `NAS ${result.nas}`);
       if (result.slack) parts.push(result.slack === "posted" ? "Slack ✓" : `Slack ${result.slack}`);
-      const failed = [result.nas, result.slack].some((value) => value && value.startsWith("failed"));
+      if (result.describe) parts.push(`Description ${result.describe}`);
+      const failed = [result.nas, result.slack, result.describe].some((value) => value && value.startsWith("failed"));
       const tone = failed ? "warn" : "ok";
       setStatus({ tone, text: `${parts.join(" · ")} — ${result.filename}` });
-      update({ name: result.filename, note: parts.join(" · "), tone, markdown: result.markdown || "" });
+      update({ name: result.filename, note: parts.join(" · "), tone, markdown: result.markdown || "", description: result.description || "" });
     } catch (error) {
       setStatus({ tone: "error", text: `Not saved: ${error.message}` });
       update({ note: `not saved: ${error.message}`, tone: "error" });
     }
-  }, [station, config, sendSlack, sendNas]);
+  }, [station, config, sendSlack, sendNas, describe]);
 
   async function copy(item) {
     try { await navigator.clipboard.writeText(item.markdown); setStatus({ tone: "ok", text: `Copied Markdown for ${item.name}` }); } catch { setStatus({ tone: "error", text: "Couldn't copy; select the link in Slack instead." }); }
@@ -163,6 +166,7 @@ export default function CaptureClient({ stations, initialStation }) {
         <button type="button" className="capture-button" onClick={capture}>Capture</button>
         <div className="capture-targets">
           <span>This machine{config.machine ? ` (${config.machine})` : ""} → /live</span>
+          {config.describe && <label><input type="checkbox" checked={describe} onChange={(event) => setDescribe(event.target.checked)} /> Describe</label>}
           {config.nas && <label><input type="checkbox" checked={sendNas} onChange={(event) => setSendNas(event.target.checked)} /> NAS</label>}
           {config.slack && <label><input type="checkbox" checked={sendSlack} onChange={(event) => setSendSlack(event.target.checked)} /> Slack{config.publicLinks ? " + public link" : ""}</label>}
           {size && <span className="capture-size">{size}</span>}
@@ -176,6 +180,7 @@ export default function CaptureClient({ stations, initialStation }) {
             <li key={item.id}>
               <img src={item.thumb} alt={item.name || "capture"} />
               <span className={`capture-note capture-status-${item.tone}`}>{item.note}</span>
+              {item.description && <p className="capture-description">{item.description}</p>}
               {item.markdown && <button type="button" className="capture-copy" onClick={() => copy(item)}>Copy MD</button>}
             </li>
           ))}

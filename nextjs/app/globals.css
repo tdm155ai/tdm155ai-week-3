@@ -208,9 +208,11 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .capture-status-ok { color: #9fd08a; }
 .capture-status-warn { color: var(--accent); }
 .capture-status-error { color: #ff8a7a; }
-.capture-recent { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.capture-recent { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
 .capture-recent img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border: 1px solid var(--line); }
 .capture-recent li { display: grid; gap: 4px; align-content: start; }
 .capture-note { font-size: 11px; line-height: 1.4; overflow-wrap: anywhere; }
 .capture-copy { justify-self: start; font-family: inherit; font-size: 11px; font-weight: 600; color: var(--ink); background: var(--wash); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
 .capture-copy:hover { border-color: var(--accent); }
+.live-description { margin: 6px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.capture-description { font-size: 12px; line-height: 1.45; color: var(--ink); margin: 0; }

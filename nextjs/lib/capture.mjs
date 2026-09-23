@@ -25,6 +25,8 @@ export function captureConfig() {
     // A user token (xoxp-) uploads as that person and can make public links; Slack only lets the uploader do that.
     slackUserToken: env("SLACK_USER_TOKEN"),
     slackChannel: env("SLACK_CHANNEL_ID"),
+    openrouterKey: env("OPENROUTER_API_KEY"),
+    openrouterModel: env("OPENROUTER_MODEL"),
   };
 }
 
@@ -42,7 +44,7 @@ export function withTimeout(promise, ms, what) {
 // What the capture page is allowed to know: which targets exist, not the secrets behind them.
 export function publicConfig() {
   const config = captureConfig();
-  return { machine: config.machine, nas: Boolean(config.nasDir), slack: Boolean(slackToken(config) && config.slackChannel), publicLinks: Boolean(config.slackUserToken && config.slackChannel) };
+  return { machine: config.machine, nas: Boolean(config.nasDir), slack: Boolean(slackToken(config) && config.slackChannel), publicLinks: Boolean(config.slackUserToken && config.slackChannel), describe: Boolean(config.openrouterKey) };
 }
 
 function stamp(date = new Date()) {
@@ -64,6 +66,11 @@ export async function saveLocal(bytes, station, filename) {
   await mkdir(directory, { recursive: true });
   await writeFile(path.join(directory, filename), bytes, { flag: "wx" });
   return "/media/" + [station, filename].map(encodeURIComponent).join("/");
+}
+
+// A capture's description lives beside it as <image>.json, which /live reads; the media route never serves it.
+export async function saveSidecar(directory, station, filename, data) {
+  await writeFile(path.join(directory, station, `${filename}.json`), JSON.stringify(data, null, 2) + "\n");
 }
 
 // The NAS is a mounted share (Finder → Go → Connect to Server → smb://<NAS IP>/<share>), so this is a plain copy.

@@ -45,6 +45,10 @@ The app writes to the NAS as a mounted folder, not over the network itself.
 
 If Connect to Server fails, the Mac is probably on a different network from the NAS. If captures say "NAS folder not found (is the share mounted?)", the share dropped (sleep and restarts do that): reconnect with ⌘K, or drag the mounted share into System Settings → General → Login Items so it remounts at login. If the share shows up as `/Volumes/<share>-1`, it was mounted twice: eject both, reconnect, and check the path.
 
+### Image descriptions
+
+With `OPENROUTER_API_KEY` set, each capture also gets two or three sentences from a vision model (`OPENROUTER_MODEL`, default `anthropic/claude-sonnet-5`), written for the station: key-light position and hard or soft light at the lights station, what the lens, glass, or projector added at the camera obscura. The description shows under the thumbnail on `/capture`, under the still on `/live` (it is saved beside the image as `<image>.json`, and copied to the NAS), and as a quote in the Slack post. It takes a few seconds; the Slack post waits for it, the local save doesn't. Untick **Describe** on the capture page to skip it.
+
 ### Connecting Slack
 
 Captures go to one channel, with the station and machine name as the message. Two ways to set it up in `nextjs/.env.local`:

@@ -14,6 +14,7 @@ export default function Gallery({ items }) {
             ? <a href={item.src} target="_blank" rel="noreferrer"><img src={item.src} alt={item.name} loading="lazy" /></a>
             : <video src={item.src} controls muted playsInline preload="metadata" />}
           <div className="live-caption"><span>{item.folder ? `${item.folder}/` : ""}{item.name}</span><span>{size(item.bytes)}</span></div>
+          {item.description && <p className="live-description">{item.description}</p>}
         </li>
       ))}
     </ul>

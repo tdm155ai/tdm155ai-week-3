@@ -1,5 +1,5 @@
 import { createReadStream } from "node:fs";
-import { readdir, stat } from "node:fs/promises";
+import { readdir, readFile, stat } from "node:fs/promises";
 import { Readable } from "node:stream";
 import path from "node:path";
 
@@ -57,6 +57,7 @@ export async function listMedia(root = mediaRoot, prefix = "/media/") {
   async function visit(directory, segments) {
     let entries;
     try { entries = await readdir(directory, { withFileTypes: true }); } catch (error) { if (error.code === "ENOENT") return; throw error; }
+    const names = new Set(entries.map((entry) => entry.name));
     for (const entry of entries) {
       if (entry.name.startsWith(".")) continue;
       const full = path.join(directory, entry.name);
@@ -67,7 +68,13 @@ export async function listMedia(root = mediaRoot, prefix = "/media/") {
       const type = imageTypes[ext] ? "image" : videoTypes[ext] ? "video" : null;
       if (!type) continue;
       const info = await stat(full);
+      // A capture's description sits beside it as <image>.json (see lib/capture.mjs).
+      let description = "";
+      if (type === "image" && names.has(`${entry.name}.json`)) {
+        try { description = JSON.parse(await readFile(`${full}.json`, "utf8")).description || ""; } catch {}
+      }
       items.push({
+        description,
         name: entry.name,
         folder: segments.join("/"),
         type,
