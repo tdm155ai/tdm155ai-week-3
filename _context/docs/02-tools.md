@@ -10,13 +10,12 @@ One line per thing. The glossary has the long entries.
 
 ## Studio lights
 
-The rule for all of them: the bigger the light looks from where the subject sits, the softer it is. Large is softer than small; close is softer than far; a diffuser makes it bigger.
+The rule for all of them: the bigger the light looks from where the subject sits, the softer it is. Large is softer than small; close is softer than far. No diffusers at this station.
 
 | Tool | What it's for |
 | --- | --- |
 | Large bi-color LED panel | The soft key or fill. Bring it close for the softest light in the room. |
 | Small bi-color LED panel | Fill, a back light, or a hard key from far away. |
-| Diffuser | Clips on a panel and makes the source bigger and the shadows softer. Costs brightness. |
 | Reflectors (white, silver; foam core) | Fill without a second light: bounce the key back into the shadow side. Silver is brighter and harder than white. |
 | Adjustable RGB lights | Any color. A colored back light, a colored wall, or a key and fill in contrasting colors. |
 | Ring light | A circle of light around the lens: shadowless, even, one round catchlight. The creator look. |
