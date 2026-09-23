@@ -1,4 +1,6 @@
+import { createReadStream } from "node:fs";
 import { readdir, stat } from "node:fs/promises";
+import { Readable } from "node:stream";
 import path from "node:path";
 
 // The live gallery reads from `_media/` at the repo root (gitignored). Anyone can run the app with an
@@ -15,15 +17,41 @@ export function contentType(file) {
   return imageTypes[ext] || videoTypes[ext] || null;
 }
 
-// Resolve a URL path inside _media/, refusing anything that escapes it.
-export function resolveMedia(segments) {
-  const target = path.resolve(mediaRoot, ...segments.map(decodeURIComponent));
-  if (target !== mediaRoot && !target.startsWith(mediaRoot + path.sep)) return null;
+// Resolve a URL path inside a media folder (_media/ unless told otherwise), refusing anything that escapes it.
+export function resolveMedia(segments, root = mediaRoot) {
+  const target = path.resolve(root, ...segments.map(decodeURIComponent));
+  if (target !== root && !target.startsWith(root + path.sep)) return null;
   return target;
 }
 
-// Every image and video under _media/, any depth, newest first.
-export async function listMedia() {
+// Serves one file from a media folder, with Range support so video scrubs and plays in Safari.
+export async function mediaResponse(request, segments, root = mediaRoot) {
+  const file = resolveMedia(segments, root);
+  const type = file && contentType(file);
+  if (!file || !type) return new Response("Not found", { status: 404 });
+
+  let info;
+  try { info = await stat(file); } catch { return new Response("Not found", { status: 404 }); }
+  if (!info.isFile()) return new Response("Not found", { status: 404 });
+
+  const headers = { "Content-Type": type, "Accept-Ranges": "bytes", "Cache-Control": "no-cache" };
+  const range = request.headers.get("range");
+  const match = range && /^bytes=(\d*)-(\d*)$/.exec(range);
+  if (match) {
+    const start = match[1] ? Number(match[1]) : Math.max(0, info.size - Number(match[2]));
+    const end = match[1] && match[2] ? Math.min(Number(match[2]), info.size - 1) : info.size - 1;
+    if (start >= info.size || start > end) return new Response(null, { status: 416, headers: { "Content-Range": `bytes */${info.size}` } });
+    headers["Content-Range"] = `bytes ${start}-${end}/${info.size}`;
+    headers["Content-Length"] = String(end - start + 1);
+    return new Response(Readable.toWeb(createReadStream(file, { start, end })), { status: 206, headers });
+  }
+  headers["Content-Length"] = String(info.size);
+  return new Response(Readable.toWeb(createReadStream(file)), { status: 200, headers });
+}
+
+// Every image and video under a media folder (_media/ by default), any depth, newest first. `prefix` is the route
+// that serves that folder.
+export async function listMedia(root = mediaRoot, prefix = "/media/") {
   const items = [];
   let skipped = 0;
   async function visit(directory, segments) {
@@ -43,13 +71,13 @@ export async function listMedia() {
         name: entry.name,
         folder: segments.join("/"),
         type,
-        src: "/media/" + [...segments, entry.name].map(encodeURIComponent).join("/"),
+        src: prefix + [...segments, entry.name].map(encodeURIComponent).join("/"),
         bytes: info.size,
         modified: info.mtimeMs,
       });
     }
   }
-  await visit(mediaRoot, []);
+  await visit(root, []);
   items.sort((a, b) => b.modified - a.modified);
   return { items, skipped };
 }

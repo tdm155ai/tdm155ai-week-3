@@ -20,9 +20,9 @@ Three ideas run through everything:
 
 | | Station | What you do | Shots go to |
 | --- | --- | --- | --- |
-| 1 | [Studio lights](stations/01-studio-lights.md) | Key at 2 or 10 with a back light opposite, shot with and without fill. Then the key walked around the clock, a still at every hour, head-on and in profile. Challenges: hard vs. soft, reflector fill, color contrast, the ring light. | OBS on the connected computer: press the capture button |
+| 1 | [Studio lights](stations/01-studio-lights.md) | Key at 2 or 10 with a back light opposite, shot with and without fill. Then the key walked around the clock, a still at every hour, head-on and in profile. Challenges: hard vs. soft, reflector fill, color contrast, the ring light. | The station computer's [capture page](/capture?station=lights): press Capture |
 | 2 | [Studio cameras](stations/02-studio-cameras.md) | Framing and composition: the shot-size ladder, high and low angle, canted, symmetry vs. thirds, look room. Then two people: shot / reverse shot, over the shoulder, clean and dirty close-ups. | OBS on the connected computer: press the capture button |
-| 3 | [Camera obscura](stations/03-camera-obscura.md) | Focus the 8×10 under a cloth and photograph the glass. Into the dark room with a partner: acrylic and phone. Then one digital chain: the infinite loop, the hand-held lens, or the projected ghost. | The class image channel on Slack |
+| 3 | [Camera obscura](stations/03-camera-obscura.md) | Focus the 8×10 under a cloth and photograph the glass. Into the dark room with a partner: acrylic and phone. Then one digital chain: the infinite loop, the hand-held lens, or the projected ghost. | Phones: the class image channel on Slack. Projector and camera: the station computer's [capture page](/capture?station=obscura) |
 | 4 | [Phone](stations/04-phone.md) | Tripod and gimbal operation. A walking selfie video; a walking video tracking someone else. Connect the wireless mic. | The class image channel on Slack |
 
 Two of these are about the professional present (lights, cameras); two are about the extremes (the deep past, the ubiquitous now).

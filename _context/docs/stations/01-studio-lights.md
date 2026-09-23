@@ -3,13 +3,13 @@ title: "Station 1: Studio lights"
 description: "Build three-point lighting one source at a time, shoot it with and without fill, then walk the key light around the clock and capture every hour."
 station: 1
 terms: [key-light, fill-light, back-light, kicker, hard-and-soft-light, catchlight, color-temperature, reflector, rgb-light, ring-light]
-share: "The studio camera at this station feeds OBS on the connected computer. Press the capture button for each still; it lands on the wall."
+share: "The studio camera's feed is on the station computer's capture page (/capture?station=lights). Press Capture when you like the shot; each still lands on the wall."
 updated: 2026-09-23
 ---
 
 # Station 1: Studio lights
 
-Gear at this station: **large and small bi-color LED panels**, **reflectors** (white and silver, plus foam core), **adjustable RGB lights** that can be any color, a **ring light**, a stool, the studio camera feeding OBS on the connected computer, and the capture button.
+Gear at this station: **large and small bi-color LED panels**, **reflectors** (white and silver, plus foam core), **adjustable RGB lights** that can be any color, a **ring light**, a stool, and the studio camera, whose feed is on the station computer's [capture page](/capture?station=lights).
 
 One rule covers most of it: **the bigger the light looks from where the subject sits, the softer it is.** A large panel is softer than a small one; any panel gets softer as you bring it closer. Small and far away is hard light with crisp shadow edges. There is no diffuser at this station; size and distance are the two dials.
 
@@ -34,4 +34,4 @@ Watch the clock series play back on the wall. 12 is flat; 2 and 10 are the portr
 
 ## Share
 
-The capture button sends each still to the wall. Name nothing; just press it. Fill / no fill, then the two clock series.
+On the station computer, the [capture page](/capture?station=lights) shows the studio camera's feed. When you like the shot, press **Capture** (or the space bar); the still goes to the wall. Name nothing; just press it. Fill / no fill, then the two clock series.

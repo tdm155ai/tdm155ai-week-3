@@ -10,7 +10,8 @@ The [live page](/live) is a gallery of whatever is in the `_media/` folder at th
 
 ## Today: two ways in
 
-- **Studio lights and studio cameras** feed OBS on the connected computer. Press the capture button and the still lands in the folder. (OBS is software we'll come back to later in the term.)
+- **Studio lights** and the **camera obscura's projector and camera** run through the station computer's capture page (`/capture`): the camera's feed is on screen, and **Capture** (or the space bar) saves the still into the folder.
+- **Studio cameras** feed OBS on the connected computer. Press the capture button and the still lands in the folder. (OBS is software we'll come back to later in the term.)
 - **Camera obscura and phone** shots go to the **class image channel on Slack**. Someone pulls them into the folder by hand.
 
 Formats that display: JPEG, PNG, WebP, GIF, MP4, MOV, WebM. HEIC does not, but sharing from an iPhone usually converts on the way out, so don't worry about it today.

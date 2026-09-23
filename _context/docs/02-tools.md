@@ -63,6 +63,7 @@ The rule for all of them: the bigger the light looks from where the subject sits
 
 | Tool | What it's for |
 | --- | --- |
-| OBS capture button | Saves a still from the studio stations straight into the wall's folder. |
+| OBS capture button | Saves a still from the studio-camera station straight into the wall's folder. |
+| Capture page (`/capture`) | At the lights and camera obscura stations: the camera's feed through a Web Presenter, and a Capture button that saves the still to the wall (and the NAS and Slack, where set up). |
 | Class image channel (Slack) | Where phone shots and videos go; they get pulled into the wall by hand today. |
 | The live wall (`/live`) | Shows whatever is in `_media/`, newest first. |

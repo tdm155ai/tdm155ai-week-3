@@ -3,7 +3,7 @@ title: "Station 3: Camera obscura"
 description: "Focus the 8×10 under a cloth and photograph the glass. Then into the dark room with a partner: one holds the acrylic, one shoots. Then pick a digital chain: the infinite loop, the hand-held lens, or the projected ghost."
 station: 3
 terms: [camera-obscura, ground-glass, image-plane, inversion, vignetting, hot-spot, large-format, projector, video-feedback, lens-whacking]
-share: "Phone photos and clips go to the class image channel on Slack."
+share: "Phone photos and clips go to the class image channel on Slack. Projector and camera shots: press Capture on the station computer (/capture?station=obscura)."
 updated: 2026-09-23
 ---
 
@@ -22,7 +22,7 @@ The first experiment is the oldest one: the world projected onto a wall, capture
 3. **Hop out and pick one digital chain** (or more, if there's time):
    - **The infinite loop.** Point a camera at the screen that's showing its own feed. Tilt it a few degrees; zoom in slowly. Then stand in front of that camera, pose, and move; watch yourself repeat into the tunnel. Photograph or film the screen.
    - **The hand-held lens.** With a staff member, take the lens off a camera body and hold it by hand just in front of the open mount. Tilt it, move it in and out. You are after the artifacts you got in the dark box, light leaks and odd planes of focus, made with a modern camera. Capture the ones you'd keep.
-   - **The ghost.** Take the projector while a partner gets on the green-screen stage. The projector throws their image as a ghostly apparition; put it on the wall, on a person, on the acrylic, and work it into your experiment. Photograph the result.
+   - **The ghost.** Take the projector while a partner gets on the green-screen stage. The projector throws their image as a ghostly apparition; put it on the wall, on a person, on the acrylic, and work it into your experiment. The station camera's feed is on the computer's [capture page](/capture?station=obscura): frame the result with that camera and press **Capture** (or the space bar) when you like it.
 4. **The prints.** Kircher's cube is a room you carry with an artist inside it; Zahn's box is a camera with no film, 150 years early. The 8×10 in front of you is the same machine, and the projector is the same machine pointed the other way.
 
 ## Notice
@@ -31,4 +31,4 @@ Every picture here is a chain: lens, glass, phone; or camera, screen, camera, sc
 
 ## Share
 
-The 8×10 ground-glass photo. The dark-room acrylic photo. At least one from the digital chain you picked. To the class image channel.
+The 8×10 ground-glass photo. The dark-room acrylic photo. At least one from the digital chain you picked. Phone shots to the class image channel; projector and camera shots go to the wall when you press **Capture** on the station computer.

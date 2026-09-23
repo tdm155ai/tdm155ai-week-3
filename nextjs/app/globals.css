@@ -184,3 +184,33 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
   .content-shell { display: block; }
   .content-main { padding: 0; max-width: none; }
 }
+/* --- /capture: one camera feed, one big button --- */
+.capture-main { padding: 28px 4vw 60px; max-width: 1600px; margin: 0 auto; }
+.capture-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 18px; }
+.capture-stations { display: flex; flex-wrap: wrap; gap: 8px; }
+.capture-chip { font-family: inherit; font-size: 13px; font-weight: 600; line-height: 1; color: var(--muted); background: var(--wash); border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
+.capture-chip[aria-pressed="true"] { color: var(--paper); background: var(--accent); border-color: var(--accent); }
+.capture-device { display: grid; gap: 6px; }
+.capture-device select { font-family: inherit; font-size: 14px; color: var(--ink); background: var(--wash); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; max-width: 360px; }
+.capture-frame { position: relative; background: #000; border: 1px solid var(--line); aspect-ratio: 16 / 9; max-height: 72vh; margin: 0 auto; }
+.capture-frame video { width: 100%; height: 100%; object-fit: contain; display: block; }
+.capture-frame::after { content: ""; position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; transition: opacity .18s; }
+.capture-flash::after { opacity: .7; transition: none; }
+.capture-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 20px; }
+.capture-button { font-family: inherit; font-size: 22px; font-weight: 800; line-height: 1; letter-spacing: -.02em; color: var(--paper); background: var(--accent); border: 0; border-radius: 999px; padding: 20px 48px; cursor: pointer; }
+.capture-button:active { transform: scale(.97); }
+.capture-button:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.capture-targets { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; font-size: 14px; color: var(--muted); }
+.capture-targets label { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); cursor: pointer; }
+.capture-size { font-variant-numeric: tabular-nums; }
+.capture-status { margin: 14px 0 0; font-size: 14px; min-height: 1.5em; overflow-wrap: anywhere; }
+.capture-status-muted { color: var(--muted); }
+.capture-status-ok { color: #9fd08a; }
+.capture-status-warn { color: var(--accent); }
+.capture-status-error { color: #ff8a7a; }
+.capture-recent { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.capture-recent img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border: 1px solid var(--line); }
+.capture-recent li { display: grid; gap: 4px; align-content: start; }
+.capture-note { font-size: 11px; line-height: 1.4; overflow-wrap: anywhere; }
+.capture-copy { justify-self: start; font-family: inherit; font-size: 11px; font-weight: 600; color: var(--ink); background: var(--wash); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
+.capture-copy:hover { border-color: var(--accent); }
