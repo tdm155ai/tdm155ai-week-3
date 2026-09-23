@@ -59,7 +59,10 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 | --- | --- |
 | [Aperture](aperture.md) | The size of the opening in the lens, written as an f-number; wider (f/1.8) lets in more light and blurs more, narrower (f/8) lets in less and keeps more in focus. |
 | [Bokeh](bokeh.md) | The look of the out-of-focus parts of a picture, especially the soft discs that point lights become. |
+| [Camera angle](camera-angle.md) | The height of the camera relative to the subject: eye level, high (looking down), or low (looking up). Each says something about them. |
 | [Camera obscura](camera-obscura.md) | A dark room or box with a small hole (or lens) in one wall, on the opposite wall of which the outside scene appears upside down. |
+| [Canted angle](canted-angle.md) | The camera rolled so the horizon runs downhill. Unease, energy, something off. Also called a Dutch angle. |
+| [Clean and dirty close-ups](dirty-close-up.md) | A clean close-up has only the subject in frame. A dirty one lets a sliver of the other person (a shoulder, hair) into the edge. Same scene, two feelings. |
 | [Depth of field](depth-of-field.md) | The band of distances that look sharp in a photo; shallow (thin) with big sensors and wide apertures, deep with small sensors and narrow ones. |
 | [Direct address](direct-address.md) | The subject looks into the lens and talks to the viewer: presentational. Looking off the lens, at someone beside the camera, is representational: a scene you watch. |
 | [Focal length](focal-length.md) | The distance from the lens to the sharp image when focused at infinity, in millimeters; it sets how wide or narrow the view is. |
@@ -71,9 +74,13 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 | [Large format](large-format.md) | Cameras and lenses made for sheets of film 4×5 inches and up; huge image circles, long focal lengths, and very shallow focus. |
 | [Lens whacking](lens-whacking.md) | Holding a lens off the camera body, tilted and moving, so light leaks in and the plane of focus tilts. A deliberate misuse. |
 | [Look room](look-room.md) | Space in the frame on the side the subject is looking toward. Without it, a face looks pushed against the edge. |
+| [Over the shoulder](over-the-shoulder.md) | A shot of one person framed past the shoulder and back of head of the other. The standard way to show two people talking. |
 | [Projector](projector.md) | A lens that throws a picture out onto a wall or a person instead of taking one in: the camera obscura run backwards. The magic lantern's descendant. |
 | [Rule of thirds](rule-of-thirds.md) | Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center. |
 | [Sensor size](sensor-size.md) | The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus. |
+| [Shot / reverse shot](shot-reverse-shot.md) | Two matching shots of two people talking, cut back and forth: one framed past the other's shoulder, then the mirror image from the other side. |
+| [Shot sizes](shot-sizes.md) | The ladder from extreme close-up to wide shot: how much of the person is in the frame. ECU, CU, MCU, MS, MLS, LS, WS. |
+| [Symmetry and asymmetry](symmetry.md) | A subject centered and balanced reads as formal, still, confrontational; a subject off-center on a third reads as natural and in motion. |
 | [Vignetting](vignetting.md) | The image getting darker toward the edges and corners, because the lens throws less light off-axis or something physically blocks it. |
 | [Zoom vs. focus](zoom-vs-focus.md) | Zooming changes how much of the scene is in the frame; focusing changes which distance is sharp. Two rings, two different things. |
 
@@ -117,8 +124,11 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 - **[Bit depth](bit-depth.md)**: How many shades each color channel can store: 8-bit gives 256, 10-bit gives 1024, which matters for skies, gradients, and grading.
 - **[Bitrate](bitrate.md)**: How much data per second the codec is allowed to use, in megabits per second; the real measure of quality that phone menus never show.
 - **[Bokeh](bokeh.md)**: The look of the out-of-focus parts of a picture, especially the soft discs that point lights become.
+- **[Camera angle](camera-angle.md)**: The height of the camera relative to the subject: eye level, high (looking down), or low (looking up). Each says something about them.
 - **[Camera obscura](camera-obscura.md)**: A dark room or box with a small hole (or lens) in one wall, on the opposite wall of which the outside scene appears upside down.
+- **[Canted angle](canted-angle.md)**: The camera rolled so the horizon runs downhill. Unease, energy, something off. Also called a Dutch angle.
 - **[Catchlight](catchlight.md)**: The small reflection of the light source in a subject's eyes. It gives away the source's shape, size, and position.
+- **[Clean and dirty close-ups](dirty-close-up.md)**: A clean close-up has only the subject in frame. A dirty one lets a sliver of the other person (a shoulder, hair) into the edge. Same scene, two feelings.
 - **[Clipping](clipping.md)**: Distortion when a signal is louder than the recorder can store; the wave's peaks are cut flat and the damage is permanent.
 - **[Codec](codec.md)**: The method used to compress video into a file: H.264 for compatibility, HEVC (H.265) for half the size, ProRes for editing quality at huge sizes.
 - **[Color temperature](color-temperature.md)**: How warm or cool a light is, in kelvin: 3200 K is tungsten orange, 5600 K is daylight blue-white.
@@ -154,6 +164,7 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 - **[Look room](look-room.md)**: Space in the frame on the side the subject is looking toward. Without it, a face looks pushed against the edge.
 - **[Manual camera app](manual-camera-app.md)**: A phone camera app that exposes the controls the built-in app hides: ISO, shutter, white balance, focus, and format, and lets you lock them.
 - **[Mise en abyme](mise-en-abyme.md)**: An image that contains a smaller copy of itself: the painting within the painting, the screen within the screen.
+- **[Over the shoulder](over-the-shoulder.md)**: A shot of one person framed past the shoulder and back of head of the other. The standard way to show two people talking.
 - **[Phantom power](phantom-power.md)**: 48 volts sent down a mic cable from the recorder or interface to run a condenser mic.
 - **[Polar pattern](polar-pattern.md)**: The shape of what a mic hears: all around (omni), in front (cardioid), or front and back (figure-8).
 - **[Projector](projector.md)**: A lens that throws a picture out onto a wall or a person instead of taking one in: the camera obscura run backwards. The magic lantern's descendant.
@@ -165,8 +176,11 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 - **[Rule of thirds](rule-of-thirds.md)**: Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center.
 - **[Selfie stick](selfie-stick.md)**: A telescoping pole that puts the phone somewhere your arm can't: higher, lower, further, around a corner.
 - **[Sensor size](sensor-size.md)**: The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus.
+- **[Shot / reverse shot](shot-reverse-shot.md)**: Two matching shots of two people talking, cut back and forth: one framed past the other's shoulder, then the mirror image from the other side.
+- **[Shot sizes](shot-sizes.md)**: The ladder from extreme close-up to wide shot: how much of the person is in the frame. ECU, CU, MCU, MS, MLS, LS, WS.
 - **[Shutter speed](shutter-speed.md)**: How long each frame is exposed; in video, usually written as a shutter angle, with 180° (half the frame time) giving natural motion blur.
 - **[Stabilization](stabilization.md)**: Ways of steadying a shot: optical (the lens element moves), electronic (the frame is cropped and shifted), or mechanical (a gimbal or tripod).
+- **[Symmetry and asymmetry](symmetry.md)**: A subject centered and balanced reads as formal, still, confrontational; a subject off-center on a third reads as natural and in motion.
 - **[Three-point lighting](three-point-lighting.md)**: The standard portrait setup: a key light to shape the face, a fill to soften the shadow, a back light to separate the subject from the background.
 - **[Tripod](tripod.md)**: Three legs and a head that hold the camera still and at the height you chose, so the frame stops moving and you can step away.
 - **[Video feedback](video-feedback.md)**: Pointing a camera at the screen showing its own live picture, so the image contains itself, repeating inward.

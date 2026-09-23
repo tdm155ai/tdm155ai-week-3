@@ -31,18 +31,19 @@ The rule for all of them: the bigger the light looks from where the subject sits
 | Prime lenses (a few focal lengths) | Fixed framing, wider apertures, character. |
 | Tripod with fluid head | Locked-off frames and smooth pans. |
 | OBS on the connected computer | The studio camera feeds it; the capture button saves a still to the wall. |
+| Two chairs, facing | For shot / reverse shot and the over-the-shoulder pair. |
 | Monitor | See the feed at a size that shows focus. |
 
-## Camera obscura and projection
+## Camera obscura
 
 | Tool | What it's for |
 | --- | --- |
-| 8×10 large-format camera | The real thing: lens, bellows, ground glass, dark cloth. Focus it first. |
-| Three lenses on stands: 35 mm camera lens, 300 mm large-format, 909 mm spy lens | Three focal lengths, three image sizes, three distances to the sheet. |
+| 8×10 large-format camera | The real thing: lens, bellows, ground glass. Velvet cloth over your head to see the image. Focus it first. |
+| The dark room | Where the acrylic experiments happen, two or three people at a time. |
+| Lenses on stands: a 35 mm camera lens, a 300 mm large-format, a 909 mm spy lens | Three focal lengths, three image sizes, three distances to the sheet. |
 | Ground glass | The 8×10's screen: catches the image so it can be seen. |
 | Frosted acrylic sheets | The screen behind each of the three lenses. Same job as ground glass, doesn't break. |
-| Dark cloth or dark corner | Makes the projected image visible. |
-| Projectors | The camera obscura run backwards. Throw a capture onto the wall behind the subject, or onto the subject. |
+| Projector + green-screen stage | The camera obscura run backwards. A partner on the stage becomes a projected ghost to work into your shot. |
 | A lens off its body | Lens whacking: hold it in front of the open mount, tilt it, let the light leak. |
 | Camera + monitor on its own feed | The feedback loop. |
 | The prints | Frisius 1545, Kircher 1646, Zahn 1685. The station's ancestors. |

@@ -1,34 +1,43 @@
 ---
 title: "Station 2: Studio cameras"
-description: "Aperture, focal length, depth of field, and focus on the studio bodies, then composition: the rule of thirds, look room, and the subject looking at the lens vs. away from it."
+description: "Framing and composition on the studio bodies: shot sizes, angles, symmetry, look room, then two people: shot / reverse shot, over the shoulder, clean and dirty close-ups."
 station: 2
-terms: [zoom-vs-focus, focal-length, aperture, depth-of-field, bokeh, sensor-size, rule-of-thirds, look-room, direct-address]
+terms: [shot-sizes, camera-angle, canted-angle, symmetry, rule-of-thirds, look-room, over-the-shoulder, shot-reverse-shot, dirty-close-up, direct-address, focal-length, aperture, depth-of-field]
 share: "The studio cameras at this station feed OBS on the connected computer. Press the capture button for each still."
 updated: 2026-09-23
 ---
 
 # Station 2: Studio cameras
 
-Gear: the studio cameras on tripods, the lenses laid out on the table, a subject with something behind them (a string of lights or the window), the OBS feed on the monitor, the capture button.
+Gear: the studio cameras on tripods, a zoom and a couple of primes on the table, two chairs facing each other for the two-person shots, the OBS feed on the monitor, the capture button.
+
+This station is about **where you put the frame**. The lens matters (part one is short), but most of what makes a shot read as a shot is framing: how much of the person, from what height, at what angle, with what around them.
 
 ## Recipe
 
-**Part one: the lens.**
+**Part one: the lens, quickly.**
 
-1. **Zoom vs. focus.** On a zoom lens, turn the zoom ring and watch the frame get wider or tighter. Then turn the focus ring and watch what's sharp move nearer or farther. Two rings, two different things.
-2. **Aperture and depth of field.** Open the aperture all the way and focus on the subject's eyes. Look at the background. Close it down two stops, then three, and watch the background come back and the picture go darker. Capture wide open and stopped down.
-3. **Focal length.** Put a wide lens on, then a long one, and frame the subject the same size by moving the camera. Capture both. Look at what happened to the background and to the shape of the face.
+1. **Aperture.** Focus on the subject's eyes wide open; look at the background. Close down three stops and watch it come back. Capture both.
+2. **Focal length.** Wide lens, then long lens, subject framed the same size by moving the camera. Capture both. Look at the background and the shape of the face.
 
-**Part two: composition.**
+**Part two: framing one person.**
 
-4. **Rule of thirds.** Put the subject's eyes on the top third line and their face on a left or right third, not dead center. Capture it. Then center them and capture that. Look at both on the wall.
-5. **Look room.** Turn the subject to look off to one side. Frame them with space in front of their face, on the side they're looking toward. Capture it. Then frame them with the space behind their head instead. One of these will feel wrong; that's the point.
-6. **At the lens vs. off the lens.** Same frame twice: the subject looks straight into the lens, then looks just off it, at someone standing beside the camera. Capture both. The first is presentational: a YouTuber, a newsreader, someone talking to you. The second is representational: an interview, a documentary, a scene you're watching.
+3. **Shot sizes.** Same subject, same lens, move the camera: extreme close-up (eyes and mouth), close-up (head and shoulders), medium close-up (chest up), medium (waist up), medium long (knees up), long (whole body), wide (the person small in the room). Capture each. Say the name out loud as you press the button.
+4. **Angle.** Camera at eye level. Then high, looking down on them. Then low, looking up. Capture all three and look at what each does to the person.
+5. **Canted.** Tilt the camera so the horizon runs downhill. Capture it. Then level it again.
+6. **Symmetry and thirds.** Center the subject dead on, symmetrical, staring down the lens. Capture. Then put them on a third, looking off. Capture. Two different pictures of the same person.
+7. **Look room.** Subject looking off to one side. Frame with space in front of the face; capture. Frame with the space behind the head; capture. One of these feels wrong.
+
+**Part three: two people.**
+
+8. **Shot / reverse shot.** Two people in the chairs, talking. Camera behind one person's shoulder, framing the other: an over-the-shoulder. Capture. Swap sides and frame the first person the same way. Capture. Keep the camera on the same side of the line between them so they keep looking at each other across the cut.
+9. **Clean and dirty.** Reframe the close-up so the near person's shoulder is out of the frame: a clean close-up. Capture. Let a sliver of shoulder or hair back in: a dirty close-up. Capture. Same conversation, two feelings.
+10. **At the lens vs. off it.** One last pair: the subject looks straight into the lens, then just off it at the person beside the camera. Presentational vs. representational.
 
 ## Notice
 
-Zooming changes what's in the frame; focusing changes what's sharp. Wide open is a thin slice of sharpness; stopped down is everything sharp and less light. Thirds and look room are the two rules every framing you've ever liked obeys, and the at-the-lens / off-the-lens pair is the difference between two whole kinds of video.
+Shot size is how close we are; angle is how we stand in relation to the person; symmetry says formal, thirds says natural; look room is where their attention goes; the OTS says there are two of them in the room. When you watch anything tonight, name the shots.
 
 ## Share
 
-The capture button sends each still to the wall. Wide vs. stopped down. Wide vs. long. Thirds vs. centered. Look room right vs. wrong. At the lens vs. off it.
+The capture button sends each still to the wall. The shot-size ladder. Eye level, high, low. Canted. Centered vs. thirds. Look room right vs. wrong. The OTS pair. Clean vs. dirty. At the lens vs. off it.

@@ -1,34 +1,34 @@
 ---
-title: "Station 3: Camera obscura and projection"
-description: "Focus the 8×10 on its ground glass. Then three lenses onto frosted acrylic, photographed with your phone. Then projectors: throw the captured image back onto the wall and onto the person. Lens whacking and the feedback loop live here too."
+title: "Station 3: Camera obscura"
+description: "Focus the 8×10 under a cloth and photograph the glass. Then into the dark room with a partner: one holds the acrylic, one shoots. Then pick a digital chain: the infinite loop, the hand-held lens, or the projected ghost."
 station: 3
-terms: [camera-obscura, image-plane, ground-glass, inversion, vignetting, hot-spot, large-format, sensor-size, projector, video-feedback, lens-whacking]
+terms: [camera-obscura, ground-glass, image-plane, inversion, vignetting, hot-spot, large-format, projector, video-feedback, lens-whacking]
 share: "Phone photos and clips go to the class image channel on Slack."
 updated: 2026-09-23
 ---
 
-# Station 3: Camera obscura and projection
+# Station 3: Camera obscura
 
-Gear: the 8×10 large-format camera on its stand with its ground glass and dark cloth; three lenses on stands, each with a sheet of frosted acrylic behind it: a **35 mm-format camera lens**, a **300 mm large-format lens**, and a **909 mm extra-large-format spy lens**; a lit subject in a dark corner; **projectors** aimed at the wall behind the subject; a camera and a monitor showing its own live feed; a lens you can take off its body; your phone; the prints on the table (Frisius 1545, Kircher's 1646 walk-in cube, Zahn's 1685 reflex box).
+Gear: the 8×10 large-format camera on its stand with its ground glass and a velvet cloth; the dark room, with lenses on stands and sheets of frosted acrylic; a camera and a screen showing its own feed; a lens that comes off its body; the projector and the green-screen stage; your phone; the prints on the table (Frisius 1545, Kircher's 1646 walk-in cube, Zahn's 1685 reflex box).
 
 ## What it's about
 
-Everything at this station is an image thrown onto a surface. A lens throws the world onto a sheet of glass: the camera obscura. A projector throws a picture onto a wall or a person: the camera obscura run backwards, which is what the magic lantern was. A camera pointed at its own monitor throws its picture back into itself. From the beginning, using a camera meant passing an image through stages on its way from the world to a picture, and each stage adds something. The phone at this station stands where the draughtsman stood.
+The first experiment is the oldest one: the world projected onto a wall, captured in a drawing, augmented in a painting. Every stage adds something, and the picture at the end is made of all of them. Take that as the inspiration for a broad array of related experiments: chains, loops, composites, artifacts. The camera obscura is where you start; where the chain goes after that is up to you.
 
 ## Recipe
 
-1. **The 8×10 first.** Get under the dark cloth. The image on the ground glass is upside down and reversed; that is correct. Rack the focus until your subject's eyes snap sharp. Have them step closer and refocus. Notice which way the standard moved. Look at the falloff toward the corners and the bright center.
-2. **Three lenses on acrylic.** At each of the three stands, point the lens at the subject and slide the acrylic sheet back and forth behind it until the image is sharp. Notice how far behind the lens the sheet ends up: a few centimeters for the 35 mm lens, about a foot for the 300 mm, nearly a meter for the 909 mm. Notice how big the image is on each, how bright, how much of the room it takes in, and how thin the slice of sharp focus is on the long ones.
-3. **Photograph the acrylic.** With your phone, photograph the image on each sheet. Turn the phone over so the picture reads right way up, or rotate it after. The phone exposes for the hot spot, picks a white balance, and records the frosting texture; that is the phone adding its stage. Try one with a manual app and exposure locked, and compare. Send them to the class image channel; say which lens if you can.
-4. **Project it back.** Put one of your captures (the acrylic photo, or a still from the wall) on the projector and throw it onto the wall your subject was standing in front of. Photograph the subject in front of their own projected image. Then turn the projector onto the person: the image lands on their face and clothes. That is how the earliest trick photographers made ghosts and doubles. Photograph it; send it.
-5. **Lens whacking.** Take the lens off the camera body and hold it just in front of the mount, tilted. Light leaks in through the gap, the plane of focus tilts, nothing is sharp where you expect. It is the handheld version of tilting the acrylic. Capture one you'd keep.
-6. **The feedback loop.** Point the camera at the monitor showing its own feed. Tilt it a few degrees; zoom in slowly. Every pass through the chain adds the chain's signature, and here you can watch it pile up.
-7. **The prints.** Kircher's cube is a room you carry with an artist inside it; Zahn's box is a camera with no film, 150 years early. The 8×10 in front of you is the same machine, and the projector is the same machine pointed the other way.
+1. **The 8×10.** Don't climb into the big dark box; just put the velvet cloth over your head and the back of the camera. The image on the ground glass is upside down and reversed; that is correct. Rack the focus until your subject's eyes are sharp. Then take a picture of the ground glass with your phone.
+2. **The dark room, with a partner.** Go in together. One of you holds the frosted acrylic behind the lens (and the lens too, if it needs holding) and slides it until the image snaps sharp. The other photographs the acrylic with a phone. Three people if it takes three. Swap roles. Notice the hot spot in the middle, the dark edges, the grain of the sheet; that is the sheet adding its stage, and the phone adds another when it exposes and white-balances.
+3. **Hop out and pick one digital chain** (or more, if there's time):
+   - **The infinite loop.** Point a camera at the screen that's showing its own feed. Tilt it a few degrees; zoom in slowly. Then stand in front of that camera, pose, and move; watch yourself repeat into the tunnel. Photograph or film the screen.
+   - **The hand-held lens.** With a staff member, take the lens off a camera body and hold it by hand just in front of the open mount. Tilt it, move it in and out. You are after the artifacts you got in the dark box, light leaks and odd planes of focus, made with a modern camera. Capture the ones you'd keep.
+   - **The ghost.** Take the projector while a partner gets on the green-screen stage. The projector throws their image as a ghostly apparition; put it on the wall, on a person, on the acrylic, and work it into your experiment. Photograph the result.
+4. **The prints.** Kircher's cube is a room you carry with an artist inside it; Zahn's box is a camera with no film, 150 years early. The 8×10 in front of you is the same machine, and the projector is the same machine pointed the other way.
 
 ## Notice
 
-Three lenses, three sizes of image, three distances to the sheet: that distance is the focal length, and the long lens's thin focus and dark edges are what "large sensor" and "shallow depth of field" mean in a phone spec. Nothing here captures a vision. Something arrives out of the lens, the sheet, the projector, the phone, and your hands, and none of them fully intended it. The vignette, the hot spot, the frosting, the leak are the marks the tools leave. Keep the ones you like.
+Every picture here is a chain: lens, glass, phone; or camera, screen, camera, screen; or stage, projector, wall, phone. Nothing in the chain captures a vision. Something arrives out of the lens, the sheet, the leak, the loop, and your hands, and none of them fully intended it. The vignette, the hot spot, the grain, the leak, the ghost are the marks the chain leaves. Keep the ones you like.
 
 ## Share
 
-Phone photos of the acrylic, one per lens at least. The subject in front of their own projection, and with the projection on them. One lens-whacked frame. One feedback frame. To the class image channel.
+The 8×10 ground-glass photo. The dark-room acrylic photo. At least one from the digital chain you picked. To the class image channel.
