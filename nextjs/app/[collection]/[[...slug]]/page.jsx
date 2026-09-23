@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeSlug from "rehype-slug";
-import { collections, label, markdownHref, pageHref, readCollection } from "../../../lib/content.mjs";
-import CodeBlock from "../../components/CodeBlock.jsx";
+import { collections, glossaryIndex, label, pageHref, readCollection } from "../../../lib/content.mjs";
+import Markdown from "../../components/Markdown.jsx";
+import TermList from "../../components/TermList.jsx";
 
 // Read the Markdown on each request so edits and new files appear on refresh.
 export const dynamic = "force-dynamic";
@@ -28,6 +26,10 @@ export default async function ContentPage({ params }) {
   if (slug.length && !doc && !isGroup) notFound();
   const visibleGroups = isGroup ? [slug[0]] : groups;
   const title = doc?.title || (isGroup ? label(slug[0]) : info.title);
+  const termSlugs = Array.isArray(doc?.data?.terms) ? doc.data.terms : [];
+  const glossary = termSlugs.length ? await glossaryIndex() : {};
+  const terms = termSlugs.map((key) => ({ slug: key, term: glossary[key]?.term || key, short: glossary[key]?.short || "", href: pageHref("glossary", [key]) }));
+  const printHref = doc ? "/print" + doc.href : null;
 
   return (
     <>
@@ -62,13 +64,11 @@ export default async function ContentPage({ params }) {
           </header>
           {doc ? (
             <>
+              <TermList terms={terms} />
               <article className="prose">
-                <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={{
-                  a: ({ href, children }) => <a href={markdownHref(href, doc.href)}>{children}</a>,
-                  pre: ({ children }) => <CodeBlock>{children}</CodeBlock>,
-                }}>{doc.content.replace(/^\s*#\s+[^\n]+(?:\r?\n|$)/, "")}</ReactMarkdown>
+                <Markdown doc={doc} />
               </article>
-              <div className="article-end"><Link href={pageHref(collection, doc.group ? [doc.group] : [])}>← Back to {doc.group ? label(doc.group) : info.title}</Link></div>
+              <div className="article-end"><Link href={pageHref(collection, doc.group ? [doc.group] : [])}>← Back to {doc.group ? label(doc.group) : info.title}</Link>{printHref && <a href={printHref}>Print version ↗</a>}</div>
             </>
           ) : (
             <div className="document-groups">

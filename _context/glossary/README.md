@@ -6,7 +6,7 @@ updated: 2026-09-23
 
 # Glossary
 
-Plain-language definitions for TDM 155AI, built from week 3's stations: mics and where they go, gimbals and tripods, three-point lighting, the big lens on the ground glass, the manual controls on a phone, the five numbers in a recording format, and the experiments where the tools point at themselves. Each entry is one short file: a one-line definition, an in-plain-terms explanation, why it matters this term, and links to related entries. The [checklist](../docs/00-checklist.md) links into these as it goes.
+Plain-language definitions for TDM 155AI, built from week 3's four stations (studio lights, studio cameras, camera obscura, phone) plus the sound entries from the first draft, which are no longer a station but still apply at the phone station. Each entry is one short file: a one-line definition, "in plain terms," why it matters this term, and links to related entries. The [checklist](../docs/00-checklist.md) lists the terms by station, and each station card carries its own terms with one-line definitions.
 
 ## By category
 
@@ -29,6 +29,7 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 
 | Term | Gist |
 | --- | --- |
+| [Front vs. rear camera](front-vs-rear-camera.md) | The rear camera is the good one: bigger sensor, better lens, more modes. The front camera is the one you can see yourself in. |
 | [Gimbal](gimbal.md) | A motorized handle that keeps a phone or camera level and steady while you move, smoothing out rotation, not footsteps. |
 | [Selfie stick](selfie-stick.md) | A telescoping pole that puts the phone somewhere your arm can't: higher, lower, further, around a corner. |
 | [Stabilization](stabilization.md) | Ways of steadying a shot: optical (the lens element moves), electronic (the frame is cropped and shifted), or mechanical (a gimbal or tripod). |
@@ -39,14 +40,17 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 | Term | Gist |
 | --- | --- |
 | [Back light](back-light.md) | A light behind and above the subject, aimed at the hair and shoulders, that separates them from the background. |
+| [Catchlight](catchlight.md) | The small reflection of the light source in a subject's eyes. It gives away the source's shape, size, and position. |
 | [Color temperature](color-temperature.md) | How warm or cool a light is, in kelvin: 3200 K is tungsten orange, 5600 K is daylight blue-white. |
 | [Diffusion](diffusion.md) | Anything that makes a light source bigger and softer: a frosted panel, a softbox, a sheet, a wall to bounce off. |
 | [Fill light](fill-light.md) | A second, weaker source or a white card on the opposite side from the key, controlling how dark the shadows get. |
+| [Hard and soft light](hard-and-soft-light.md) | Hard light comes from a small source and makes crisp shadow edges; soft light comes from a big source and makes gradual ones. Size relative to the subject is what decides it. |
 | [Inverse-square law](inverse-square-law.md) | Light falls off with the square of distance: half the distance is four times the brightness. |
 | [Key light](key-light.md) | The main light on a subject, placed to one side and above eye level so the face has shape. |
+| [Kicker](kicker.md) | A light from behind the subject at an angle, raking the cheek or jaw with a thin bright edge. One of the names for the third point. |
 | [Three-point lighting](three-point-lighting.md) | The standard portrait setup: a key light to shape the face, a fill to soften the shadow, a back light to separate the subject from the background. |
 
-### Lenses and cameras
+### Lenses, cameras, and composition
 
 | Term | Gist |
 | --- | --- |
@@ -54,19 +58,30 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 | [Bokeh](bokeh.md) | The look of the out-of-focus parts of a picture, especially the soft discs that point lights become. |
 | [Camera obscura](camera-obscura.md) | A dark room or box with a small hole (or lens) in one wall, on the opposite wall of which the outside scene appears upside down. |
 | [Depth of field](depth-of-field.md) | The band of distances that look sharp in a photo; shallow (thin) with big sensors and wide apertures, deep with small sensors and narrow ones. |
+| [Direct address](direct-address.md) | The subject looks into the lens and talks to the viewer: presentational. Looking off the lens, at someone beside the camera, is representational: a scene you watch. |
 | [Focal length](focal-length.md) | The distance from the lens to the sharp image when focused at infinity, in millimeters; it sets how wide or narrow the view is. |
 | [Focus](focus.md) | Moving the lens closer to or further from the sensor (or glass) until the subject's light converges to a sharp image. |
 | [Ground glass](ground-glass.md) | A sheet of glass frosted on one side so that a lens's image forms on it and can be seen from behind; the viewfinder of a large-format camera. |
+| [Hot spot](hot-spot.md) | The bright center of a rear-projected image, where the lens's light comes straight through the screen at your eye. |
+| [Image plane](image-plane.md) | The surface behind the lens where the image comes to focus: the ground glass, the film, the sensor. Whatever sits there is what records. |
+| [Inversion](inversion.md) | The image a lens forms is upside down and reversed left to right. Every camera flips it back for you; the ground glass doesn't. |
 | [Large format](large-format.md) | Cameras and lenses made for sheets of film 4×5 inches and up; huge image circles, long focal lengths, and very shallow focus. |
+| [Lens whacking](lens-whacking.md) | Holding a lens off the camera body, tilted and moving, so light leaks in and the plane of focus tilts. A deliberate misuse. |
+| [Look room](look-room.md) | Space in the frame on the side the subject is looking toward. Without it, a face looks pushed against the edge. |
+| [Rule of thirds](rule-of-thirds.md) | Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center. |
 | [Sensor size](sensor-size.md) | The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus. |
+| [Vignetting](vignetting.md) | The image getting darker toward the edges and corners, because the lens throws less light off-axis or something physically blocks it. |
+| [Zoom vs. focus](zoom-vs-focus.md) | Zooming changes how much of the scene is in the frame; focusing changes which distance is sharp. Two rings, two different things. |
 
 ### Exposure and control
 
 | Term | Gist |
 | --- | --- |
+| [Computational photography](computational-photography.md) | What a phone does to an image before you ever see it: stacking frames, guessing depth, brightening faces, flattening contrast. The camera as an interpreter. |
 | [Exposure](exposure.md) | How much light reaches the sensor, set by three things: aperture, shutter speed, and ISO. |
 | [Histogram](histogram.md) | A graph of how many pixels are at each brightness, dark on the left, bright on the right; the fastest way to see exposure. |
 | [ISO](iso.md) | How much the sensor's signal is amplified; low ISO is clean and needs light, high ISO works in the dark and adds noise. |
+| [Lock](lock.md) | Freezing exposure, focus, and white balance so the phone stops re-deciding them mid-shot. AE/AF/WB lock. |
 | [Manual camera app](manual-camera-app.md) | A phone camera app that exposes the controls the built-in app hides: ISO, shutter, white balance, focus, and format, and lets you lock them. |
 | [Shutter speed](shutter-speed.md) | How long each frame is exposed; in video, usually written as a shutter angle, with 180° (half the frame time) giving natural motion blur. |
 | [White balance](white-balance.md) | The camera's setting for which color it treats as white, in kelvin, matched to the light's color temperature. |
@@ -81,14 +96,15 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 | [Codec](codec.md) | The method used to compress video into a file: H.264 for compatibility, HEVC (H.265) for half the size, ProRes for editing quality at huge sizes. |
 | [Frame rate](frame-rate.md) | How many frames are recorded per second: 24 for a film look, 30 for video, 60 or 120 for slow motion. |
 | [Log profile](log-profile.md) | A flat, low-contrast recording mode that keeps more highlight and shadow detail for color grading later. |
-| [Resolution](resolution.md) | How many pixels each frame has: 1920×1080 (1080p, "HD") or 3840×2160 (4K, "UHD"). |
+| [Resolution](resolution.md) | How many pixels each frame has: 1920×1080 (1080p, 'HD') or 3840×2160 (4K, 'UHD'). |
 
-### Experiments
+### Experiments and ideas
 
 | Term | Gist |
 | --- | --- |
 | [Mise en abyme](mise-en-abyme.md) | An image that contains a smaller copy of itself: the painting within the painting, the screen within the screen. |
 | [Video feedback](video-feedback.md) | Pointing a camera at the screen showing its own live picture, so the image contains itself, repeating inward. |
+| [Workmanship of risk](workmanship-of-risk.md) | David Pye's term for making where the result is at stake the whole way through, as opposed to the workmanship of certainty, where the outcome is fixed in advance. |
 
 ## A to Z
 
@@ -98,34 +114,47 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 - **[Bitrate](bitrate.md)**: How much data per second the codec is allowed to use, in megabits per second; the real measure of quality that phone menus never show.
 - **[Bokeh](bokeh.md)**: The look of the out-of-focus parts of a picture, especially the soft discs that point lights become.
 - **[Camera obscura](camera-obscura.md)**: A dark room or box with a small hole (or lens) in one wall, on the opposite wall of which the outside scene appears upside down.
+- **[Catchlight](catchlight.md)**: The small reflection of the light source in a subject's eyes. It gives away the source's shape, size, and position.
 - **[Clipping](clipping.md)**: Distortion when a signal is louder than the recorder can store; the wave's peaks are cut flat and the damage is permanent.
 - **[Codec](codec.md)**: The method used to compress video into a file: H.264 for compatibility, HEVC (H.265) for half the size, ProRes for editing quality at huge sizes.
 - **[Color temperature](color-temperature.md)**: How warm or cool a light is, in kelvin: 3200 K is tungsten orange, 5600 K is daylight blue-white.
+- **[Computational photography](computational-photography.md)**: What a phone does to an image before you ever see it: stacking frames, guessing depth, brightening faces, flattening contrast. The camera as an interpreter.
 - **[Condenser mic](condenser-mic.md)**: A sensitive mic that measures sound with a charged plate; needs power, hears everything, and is the studio and lav standard.
 - **[Depth of field](depth-of-field.md)**: The band of distances that look sharp in a photo; shallow (thin) with big sensors and wide apertures, deep with small sensors and narrow ones.
 - **[Diffusion](diffusion.md)**: Anything that makes a light source bigger and softer: a frosted panel, a softbox, a sheet, a wall to bounce off.
+- **[Direct address](direct-address.md)**: The subject looks into the lens and talks to the viewer: presentational. Looking off the lens, at someone beside the camera, is representational: a scene you watch.
 - **[Dynamic mic](dynamic-mic.md)**: A rugged mic that turns sound into electricity with a coil and magnet; needs no power, wants you close, and ignores most of the room.
 - **[Exposure](exposure.md)**: How much light reaches the sensor, set by three things: aperture, shutter speed, and ISO.
 - **[Fill light](fill-light.md)**: A second, weaker source or a white card on the opposite side from the key, controlling how dark the shadows get.
 - **[Focal length](focal-length.md)**: The distance from the lens to the sharp image when focused at infinity, in millimeters; it sets how wide or narrow the view is.
 - **[Focus](focus.md)**: Moving the lens closer to or further from the sensor (or glass) until the subject's light converges to a sharp image.
 - **[Frame rate](frame-rate.md)**: How many frames are recorded per second: 24 for a film look, 30 for video, 60 or 120 for slow motion.
+- **[Front vs. rear camera](front-vs-rear-camera.md)**: The rear camera is the good one: bigger sensor, better lens, more modes. The front camera is the one you can see yourself in.
 - **[Gain](gain.md)**: How much the recorder amplifies the mic signal before it is saved; set so speech peaks around −12 dB.
 - **[Gimbal](gimbal.md)**: A motorized handle that keeps a phone or camera level and steady while you move, smoothing out rotation, not footsteps.
 - **[Ground glass](ground-glass.md)**: A sheet of glass frosted on one side so that a lens's image forms on it and can be seen from behind; the viewfinder of a large-format camera.
+- **[Hard and soft light](hard-and-soft-light.md)**: Hard light comes from a small source and makes crisp shadow edges; soft light comes from a big source and makes gradual ones. Size relative to the subject is what decides it.
 - **[Histogram](histogram.md)**: A graph of how many pixels are at each brightness, dark on the left, bright on the right; the fastest way to see exposure.
+- **[Hot spot](hot-spot.md)**: The bright center of a rear-projected image, where the lens's light comes straight through the screen at your eye.
+- **[Image plane](image-plane.md)**: The surface behind the lens where the image comes to focus: the ground glass, the film, the sensor. Whatever sits there is what records.
 - **[Inverse-square law](inverse-square-law.md)**: Light falls off with the square of distance: half the distance is four times the brightness.
+- **[Inversion](inversion.md)**: The image a lens forms is upside down and reversed left to right. Every camera flips it back for you; the ground glass doesn't.
 - **[ISO](iso.md)**: How much the sensor's signal is amplified; low ISO is clean and needs light, high ISO works in the dark and adds noise.
 - **[Key light](key-light.md)**: The main light on a subject, placed to one side and above eye level so the face has shape.
+- **[Kicker](kicker.md)**: A light from behind the subject at an angle, raking the cheek or jaw with a thin bright edge. One of the names for the third point.
 - **[Large format](large-format.md)**: Cameras and lenses made for sheets of film 4×5 inches and up; huge image circles, long focal lengths, and very shallow focus.
 - **[Lavalier](lavalier.md)**: A tiny clip-on mic worn on the chest, near the mouth, so the speaker's voice is louder than the room.
+- **[Lens whacking](lens-whacking.md)**: Holding a lens off the camera body, tilted and moving, so light leaks in and the plane of focus tilts. A deliberate misuse.
+- **[Lock](lock.md)**: Freezing exposure, focus, and white balance so the phone stops re-deciding them mid-shot. AE/AF/WB lock.
 - **[Log profile](log-profile.md)**: A flat, low-contrast recording mode that keeps more highlight and shadow detail for color grading later.
+- **[Look room](look-room.md)**: Space in the frame on the side the subject is looking toward. Without it, a face looks pushed against the edge.
 - **[Manual camera app](manual-camera-app.md)**: A phone camera app that exposes the controls the built-in app hides: ISO, shutter, white balance, focus, and format, and lets you lock them.
 - **[Mise en abyme](mise-en-abyme.md)**: An image that contains a smaller copy of itself: the painting within the painting, the screen within the screen.
 - **[Phantom power](phantom-power.md)**: 48 volts sent down a mic cable from the recorder or interface to run a condenser mic.
 - **[Polar pattern](polar-pattern.md)**: The shape of what a mic hears: all around (omni), in front (cardioid), or front and back (figure-8).
 - **[Proximity effect](proximity-effect.md)**: The bass boost you hear when a directional mic is within a few inches of the mouth.
-- **[Resolution](resolution.md)**: How many pixels each frame has: 1920×1080 (1080p, "HD") or 3840×2160 (4K, "UHD").
+- **[Resolution](resolution.md)**: How many pixels each frame has: 1920×1080 (1080p, 'HD') or 3840×2160 (4K, 'UHD').
+- **[Rule of thirds](rule-of-thirds.md)**: Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center.
 - **[Selfie stick](selfie-stick.md)**: A telescoping pole that puts the phone somewhere your arm can't: higher, lower, further, around a corner.
 - **[Sensor size](sensor-size.md)**: The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus.
 - **[Shutter speed](shutter-speed.md)**: How long each frame is exposed; in video, usually written as a shutter angle, with 180° (half the frame time) giving natural motion blur.
@@ -133,6 +162,9 @@ Plain-language definitions for TDM 155AI, built from week 3's stations: mics and
 - **[Three-point lighting](three-point-lighting.md)**: The standard portrait setup: a key light to shape the face, a fill to soften the shadow, a back light to separate the subject from the background.
 - **[Tripod](tripod.md)**: Three legs and a head that hold the camera still and at the height you chose, so the frame stops moving and you can step away.
 - **[Video feedback](video-feedback.md)**: Pointing a camera at the screen showing its own live picture, so the image contains itself, repeating inward.
+- **[Vignetting](vignetting.md)**: The image getting darker toward the edges and corners, because the lens throws less light off-axis or something physically blocks it.
 - **[White balance](white-balance.md)**: The camera's setting for which color it treats as white, in kelvin, matched to the light's color temperature.
 - **[Wireless mic](wireless-mic.md)**: A small transmitter with a mic on it that sends sound to a receiver plugged into your phone or camera, so the mic can be on the person, not on the camera.
+- **[Workmanship of risk](workmanship-of-risk.md)**: David Pye's term for making where the result is at stake the whole way through, as opposed to the workmanship of certainty, where the outcome is fixed in advance.
 - **[Zebras](zebra.md)**: Diagonal stripes a camera or app paints over any part of the frame brighter than a set level, warning that it is about to clip.
+- **[Zoom vs. focus](zoom-vs-focus.md)**: Zooming changes how much of the scene is in the frame; focusing changes which distance is sharp. Two rings, two different things.

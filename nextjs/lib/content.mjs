@@ -4,7 +4,7 @@ import matter from "gray-matter";
 
 // `dir` is the folder relative to the repo root; both live under _context/.
 export const collections = {
-  docs: { title: "Docs", description: "Today's checklist, the stations, and the setup notes for cameras, lights, and mics.", number: "01", dir: "_context/docs" },
+  docs: { title: "Docs", description: "Today's four stations and their cards, this week's practice, tools, dates, and the reference pages.", number: "01", dir: "_context/docs" },
   glossary: { title: "Glossary", description: "One short entry per term: the words for lenses, light, sound, and recording formats.", number: "02", dir: "_context/glossary" },
 };
 
@@ -45,6 +45,7 @@ export async function readCollection(collection) {
           title: typeof data.title === "string" ? data.title : heading || label(slug.at(-1)),
           description: typeof data.description === "string" ? data.description : "",
           content,
+          data,
           href: pageHref(collection, slug),
         });
       }
@@ -64,4 +65,24 @@ export function markdownHref(href, documentHref) {
   // On disk the collections live under _context/; on the site they are top-level routes.
   url.pathname = url.pathname.replace(/^\/_context\//, "/");
   return url.pathname + url.search + url.hash;
+}
+
+// slug → { term, short } for every glossary entry, used to print one-line definitions on the station cards.
+export async function glossaryIndex() {
+  const docs = await readCollection("glossary");
+  const index = {};
+  for (const doc of docs) {
+    if (doc.slug.length !== 1 || doc.slug[0] === "README") continue;
+    const { term, short } = doc.data;
+    if (typeof term === "string" && typeof short === "string") index[doc.slug[0]] = { term, short, href: doc.href };
+  }
+  return index;
+}
+
+// The four station cards, in order, with their terms resolved against the glossary.
+export async function stationCards() {
+  const [docs, glossary] = await Promise.all([readCollection("docs"), glossaryIndex()]);
+  return docs
+    .filter((doc) => doc.group === "stations")
+    .map((doc) => ({ ...doc, terms: (Array.isArray(doc.data.terms) ? doc.data.terms : []).map((slug) => glossary[slug] ? { slug, ...glossary[slug] } : { slug, term: slug, short: "", href: pageHref("glossary", [slug]) }) }));
 }

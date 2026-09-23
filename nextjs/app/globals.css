@@ -138,3 +138,49 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .live-item a { display: block; }
 .live-caption { display: flex; justify-content: space-between; gap: 12px; padding: 10px 12px; font-size: 11px; letter-spacing: .02em; color: var(--muted); overflow: hidden; }
 .live-caption span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* --- term lists on station pages --- */
+.term-list { margin: 0 0 36px; padding: 20px 24px; border: 1px solid var(--line); border-radius: 6px; background: var(--wash); }
+.term-list dl { margin: 12px 0 0; display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; }
+.term-list .term { display: contents; }
+.term-list dt { font-weight: 650; white-space: nowrap; }
+.term-list dt a { border-bottom: 1px solid var(--accent); }
+.term-list dd { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.5; }
+@media (max-width: 640px) { .term-list dl { grid-template-columns: 1fr; gap: 2px; } .term-list dd { margin-bottom: 10px; } }
+.article-end { display: flex; justify-content: space-between; gap: 20px; }
+
+/* --- print surface: the one light theme, for /print/* --- */
+.print-root { --paper: #ffffff; --ink: #111311; --muted: #555a54; --line: #d5d8d2; --accent: #8a5a0c; --wash: #f4f4f0; background: var(--paper); color: var(--ink); min-height: 100vh; color-scheme: light; }
+.print-root ::selection { background: #f2dca8; color: var(--ink); }
+.print-main { max-width: 760px; margin: 0 auto; padding: 36px 24px 72px; }
+.print-bar { display: flex; justify-content: space-between; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 28px; }
+.print-main h1 { font-size: 34px; letter-spacing: -.03em; line-height: 1.05; margin: 0 0 10px; }
+.print-main .lede { font-size: 17px; color: var(--muted); margin: 0 0 22px; }
+.print-card + .print-card { margin-top: 48px; }
+.print-root .term-list { background: var(--wash); border-color: var(--line); }
+.print-root .term-list dd { color: var(--ink); }
+.print-root .prose { font-size: 15px; line-height: 1.55; }
+.print-root .prose h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; margin: 22px 0 8px; }
+.print-root .prose pre { background: var(--wash); color: var(--ink); border-color: var(--line); }
+.print-root .prose code { background: var(--wash); }
+.print-root .prose a { border-bottom: none; color: inherit; }
+.print-share { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 14px; }
+.print-index { line-height: 2; padding-left: 20px; }
+.print-index a { border-bottom: 1px solid var(--accent); }
+.print-glossary h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .1em; margin: 26px 0 8px; color: var(--muted); }
+.print-glossary dl { margin: 0; }
+.print-glossary .term { display: grid; grid-template-columns: 170px 1fr; gap: 0 14px; padding: 5px 0; border-top: 1px solid var(--line); font-size: 13.5px; line-height: 1.45; break-inside: avoid; }
+.print-glossary dt { font-weight: 650; }
+.print-glossary dd { margin: 0; }
+@media print {
+  @page { margin: 16mm; }
+  .print-root { min-height: 0; }
+  .print-main { max-width: none; padding: 0; }
+  .print-bar { display: none; }
+  .print-card + .print-card { margin-top: 0; }
+  .page-break { break-before: page; }
+  .site-header, .sidebar, .breadcrumbs, .site-footer, .article-end, .skip-link, .code-copy, .live-controls { display: none !important; }
+  html, body { background: #fff !important; color: #111 !important; }
+  .content-shell { display: block; }
+  .content-main { padding: 0; max-width: none; }
+}

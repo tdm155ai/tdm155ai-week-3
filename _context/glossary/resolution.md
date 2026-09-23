@@ -16,7 +16,7 @@ updated: 2026-09-23
 
 4K has four times the pixels of 1080p, not twice. That buys room to crop and reframe in the edit (a 1080p cut out of a 4K frame is a free second camera), and sharper stills pulled from video. It costs storage, processing, and, at the same [bitrate](bitrate.md), compression quality per pixel.
 
-For anything watched on a phone or in a browser, 1080p is enough. Shoot 4K when you plan to crop, stabilize in software (which crops), or pull frames. Resolution is only one of five numbers that decide what the file looks like; see [recording formats](../docs/01-recording-formats.md).
+For anything watched on a phone or in a browser, 1080p is enough. Shoot 4K when you plan to crop, stabilize in software (which crops), or pull frames. Resolution is only one of five numbers that decide what the file looks like; see [recording formats](../docs/04-recording-formats.md).
 
 ## Why it matters this term
 
