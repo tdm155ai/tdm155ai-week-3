@@ -48,6 +48,9 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 | [Inverse-square law](inverse-square-law.md) | Light falls off with the square of distance: half the distance is four times the brightness. |
 | [Key light](key-light.md) | The main light on a subject, placed to one side and above eye level so the face has shape. |
 | [Kicker](kicker.md) | A light from behind the subject at an angle, raking the cheek or jaw with a thin bright edge. One of the names for the third point. |
+| [Reflector](reflector.md) | A white, silver, or gold surface that bounces the key light back into the shadow side of a face. Fill without a second light. |
+| [RGB light](rgb-light.md) | An LED light that can be set to any color, not just warm or cool white. For colored back lights, colored walls, and color contrast between the points. |
+| [Ring light](ring-light.md) | A circle of LEDs around the lens. Even, shadowless light from the camera's own position, with a single round catchlight in each eye. |
 | [Three-point lighting](three-point-lighting.md) | The standard portrait setup: a key light to shape the face, a fill to soften the shadow, a back light to separate the subject from the background. |
 
 ### Lenses, cameras, and composition
@@ -153,7 +156,10 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 - **[Phantom power](phantom-power.md)**: 48 volts sent down a mic cable from the recorder or interface to run a condenser mic.
 - **[Polar pattern](polar-pattern.md)**: The shape of what a mic hears: all around (omni), in front (cardioid), or front and back (figure-8).
 - **[Proximity effect](proximity-effect.md)**: The bass boost you hear when a directional mic is within a few inches of the mouth.
+- **[Reflector](reflector.md)**: A white, silver, or gold surface that bounces the key light back into the shadow side of a face. Fill without a second light.
 - **[Resolution](resolution.md)**: How many pixels each frame has: 1920×1080 (1080p, 'HD') or 3840×2160 (4K, 'UHD').
+- **[RGB light](rgb-light.md)**: An LED light that can be set to any color, not just warm or cool white. For colored back lights, colored walls, and color contrast between the points.
+- **[Ring light](ring-light.md)**: A circle of LEDs around the lens. Even, shadowless light from the camera's own position, with a single round catchlight in each eye.
 - **[Rule of thirds](rule-of-thirds.md)**: Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center.
 - **[Selfie stick](selfie-stick.md)**: A telescoping pole that puts the phone somewhere your arm can't: higher, lower, further, around a corner.
 - **[Sensor size](sensor-size.md)**: The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus.

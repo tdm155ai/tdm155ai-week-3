@@ -6,7 +6,7 @@ updated: 2026-09-23
 
 # Today: four stations
 
-*Changed the morning of class: the first draft had ten stations. Marlon collapsed them to four; the reasons are in the [stations handoff](https://github.com/tdm155ai/tdm155ai-week-3/blob/main/_context/handoffs/20260923-stations-handoff.md).*
+*Changed the morning of class: the first draft had ten stations; it is now four.*
 
 Marlon demos all four stations up front. Then groups of three rotate, twenty minutes at each. Every station has a printed card: the terms to master at the top, then the recipe. The pages here are the long version; you don't have to read them. What you shoot goes on the [live wall](06-sharing-to-live.md) in the room.
 
@@ -20,7 +20,7 @@ Three ideas run through everything:
 
 | | Station | What you do | Shots go to |
 | --- | --- | --- | --- |
-| 1 | [Studio lights](stations/01-studio-lights.md) | Key at 2 or 10 with a back light opposite, shot with and without fill. Then the key walked around the clock, a still at every hour, head-on and in profile. | OBS on the connected computer: press the capture button |
+| 1 | [Studio lights](stations/01-studio-lights.md) | Key at 2 or 10 with a back light opposite, shot with and without fill. Then the key walked around the clock, a still at every hour, head-on and in profile. Challenges: hard vs. soft, reflector fill, color contrast, the ring light. | OBS on the connected computer: press the capture button |
 | 2 | [Studio cameras](stations/02-studio-cameras.md) | Aperture, focal length, depth of field, focus. Then composition: rule of thirds, look room, subject at the lens vs. off it. | OBS on the connected computer: press the capture button |
 | 3 | [Camera obscura](stations/03-camera-obscura.md) | Focus the 8×10 on its ground glass. Then three lenses (35 mm, 300 mm, 909 mm) onto frosted acrylic, photographed with your phone. | The class image channel on Slack |
 | 4 | [Phone](stations/04-phone.md) | Tripod and gimbal operation. A walking selfie video; a walking video tracking someone else. Connect the wireless mic. | The class image channel on Slack |
@@ -31,7 +31,7 @@ Two of these are about the professional present (lights, cameras); two are about
 
 Each card lists its terms with a one-line definition; the [glossary](../glossary/README.md) has the long entries.
 
-- **Studio lights:** [key light](../glossary/key-light.md) · [fill light](../glossary/fill-light.md) · [back light](../glossary/back-light.md) · [kicker](../glossary/kicker.md) · [hard and soft light](../glossary/hard-and-soft-light.md) · [catchlight](../glossary/catchlight.md) · [color temperature](../glossary/color-temperature.md)
+- **Studio lights:** [key light](../glossary/key-light.md) · [fill light](../glossary/fill-light.md) · [back light](../glossary/back-light.md) · [kicker](../glossary/kicker.md) · [hard and soft light](../glossary/hard-and-soft-light.md) · [catchlight](../glossary/catchlight.md) · [color temperature](../glossary/color-temperature.md) · [reflector](../glossary/reflector.md) · [RGB light](../glossary/rgb-light.md) · [ring light](../glossary/ring-light.md)
 - **Studio cameras:** [zoom vs. focus](../glossary/zoom-vs-focus.md) · [focal length](../glossary/focal-length.md) · [aperture](../glossary/aperture.md) · [depth of field](../glossary/depth-of-field.md) · [bokeh](../glossary/bokeh.md) · [sensor size](../glossary/sensor-size.md) · [rule of thirds](../glossary/rule-of-thirds.md) · [look room](../glossary/look-room.md) · [direct address](../glossary/direct-address.md) · [lens whacking](../glossary/lens-whacking.md)
 - **Camera obscura:** [camera obscura](../glossary/camera-obscura.md) · [image plane](../glossary/image-plane.md) · [ground glass](../glossary/ground-glass.md) · [inversion](../glossary/inversion.md) · [vignetting](../glossary/vignetting.md) · [hot spot](../glossary/hot-spot.md) · [large format](../glossary/large-format.md) · [sensor size](../glossary/sensor-size.md) · [video feedback](../glossary/video-feedback.md) · [workmanship of risk](../glossary/workmanship-of-risk.md)
 - **Phone:** [lock](../glossary/lock.md) · [tripod](../glossary/tripod.md) · [gimbal](../glossary/gimbal.md) · [stabilization](../glossary/stabilization.md) · [front vs. rear camera](../glossary/front-vs-rear-camera.md) · [manual camera app](../glossary/manual-camera-app.md) · [computational photography](../glossary/computational-photography.md) · [wireless mic](../glossary/wireless-mic.md) · the five numbers ([recording formats](04-recording-formats.md))
