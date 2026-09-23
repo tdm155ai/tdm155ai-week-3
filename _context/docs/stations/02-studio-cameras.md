@@ -2,7 +2,7 @@
 title: "Station 2: Studio cameras"
 description: "Aperture, focal length, depth of field, and focus on the studio bodies, then composition: the rule of thirds, look room, and the subject looking at the lens vs. away from it."
 station: 2
-terms: [zoom-vs-focus, focal-length, aperture, depth-of-field, bokeh, sensor-size, rule-of-thirds, look-room, direct-address, lens-whacking]
+terms: [zoom-vs-focus, focal-length, aperture, depth-of-field, bokeh, sensor-size, rule-of-thirds, look-room, direct-address]
 share: "The studio cameras at this station feed OBS on the connected computer. Press the capture button for each still."
 updated: 2026-09-23
 ---
@@ -24,7 +24,6 @@ Gear: the studio cameras on tripods, the lenses laid out on the table, a subject
 4. **Rule of thirds.** Put the subject's eyes on the top third line and their face on a left or right third, not dead center. Capture it. Then center them and capture that. Look at both on the wall.
 5. **Look room.** Turn the subject to look off to one side. Frame them with space in front of their face, on the side they're looking toward. Capture it. Then frame them with the space behind their head instead. One of these will feel wrong; that's the point.
 6. **At the lens vs. off the lens.** Same frame twice: the subject looks straight into the lens, then looks just off it, at someone standing beside the camera. Capture both. The first is presentational: a YouTuber, a newsreader, someone talking to you. The second is representational: an interview, a documentary, a scene you're watching.
-7. **Lens whacking, if there's time.** Take the lens off the body and hold it just in front of the mount, tilted. Light leaks in, the plane of focus tilts. Capture one you'd keep.
 
 ## Notice
 

@@ -33,7 +33,7 @@ The rule for all of them: the bigger the light looks from where the subject sits
 | OBS on the connected computer | The studio camera feeds it; the capture button saves a still to the wall. |
 | Monitor | See the feed at a size that shows focus. |
 
-## Camera obscura
+## Camera obscura and projection
 
 | Tool | What it's for |
 | --- | --- |
@@ -42,7 +42,9 @@ The rule for all of them: the bigger the light looks from where the subject sits
 | Ground glass | The 8×10's screen: catches the image so it can be seen. |
 | Frosted acrylic sheets | The screen behind each of the three lenses. Same job as ground glass, doesn't break. |
 | Dark cloth or dark corner | Makes the projected image visible. |
-| Camera + monitor on its own feed | The recursion loop. |
+| Projectors | The camera obscura run backwards. Throw a capture onto the wall behind the subject, or onto the subject. |
+| A lens off its body | Lens whacking: hold it in front of the open mount, tilt it, let the light leak. |
+| Camera + monitor on its own feed | The feedback loop. |
 | The prints | Frisius 1545, Kircher 1646, Zahn 1685. The station's ancestors. |
 
 ## Phone

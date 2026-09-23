@@ -71,6 +71,7 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 | [Large format](large-format.md) | Cameras and lenses made for sheets of film 4×5 inches and up; huge image circles, long focal lengths, and very shallow focus. |
 | [Lens whacking](lens-whacking.md) | Holding a lens off the camera body, tilted and moving, so light leaks in and the plane of focus tilts. A deliberate misuse. |
 | [Look room](look-room.md) | Space in the frame on the side the subject is looking toward. Without it, a face looks pushed against the edge. |
+| [Projector](projector.md) | A lens that throws a picture out onto a wall or a person instead of taking one in: the camera obscura run backwards. The magic lantern's descendant. |
 | [Rule of thirds](rule-of-thirds.md) | Divide the frame into thirds both ways and put the important things on the lines or where they cross, not dead center. |
 | [Sensor size](sensor-size.md) | The physical size of the chip that records the image; bigger sensors need bigger lenses, gather more light, and give shallower focus. |
 | [Vignetting](vignetting.md) | The image getting darker toward the edges and corners, because the lens throws less light off-axis or something physically blocks it. |
@@ -155,6 +156,7 @@ Plain-language definitions for TDM 155AI, built from week 3's four stations (stu
 - **[Mise en abyme](mise-en-abyme.md)**: An image that contains a smaller copy of itself: the painting within the painting, the screen within the screen.
 - **[Phantom power](phantom-power.md)**: 48 volts sent down a mic cable from the recorder or interface to run a condenser mic.
 - **[Polar pattern](polar-pattern.md)**: The shape of what a mic hears: all around (omni), in front (cardioid), or front and back (figure-8).
+- **[Projector](projector.md)**: A lens that throws a picture out onto a wall or a person instead of taking one in: the camera obscura run backwards. The magic lantern's descendant.
 - **[Proximity effect](proximity-effect.md)**: The bass boost you hear when a directional mic is within a few inches of the mouth.
 - **[Reflector](reflector.md)**: A white, silver, or gold surface that bounces the key light back into the shadow side of a face. Fill without a second light.
 - **[Resolution](resolution.md)**: How many pixels each frame has: 1920×1080 (1080p, 'HD') or 3840×2160 (4K, 'UHD').
